@@ -14,6 +14,8 @@ body {
     align-items: center;
     height: 100vh;
     font-size: 16px;
+    position: relative;
+    overflow-x: hidden;
 }
 
 /* Container */
@@ -68,4 +70,23 @@ button:hover {
     color: #F0F0F0;
     font-size: 18px;
     text-align: left;
+}
+
+/* Developer Name Styles */
+.developer-name {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: #03DAC6;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    /* For smaller screens, adjust the developer name font size */
+    .developer-name {
+        font-size: 12px;
+        right: 10px;
+        bottom: 10px;
+    }
 }
