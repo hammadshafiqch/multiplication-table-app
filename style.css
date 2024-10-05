@@ -1,0 +1,71 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #BB86FC;
+}
+
+/* Input field */
+input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #E0E0E0;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background-color: #03DAC6;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #018786;
+}
+
+/* Output Table */
+#tableOutput {
+    margin-top: 20px;
+    color: #F0F0F0;
+    font-size: 18px;
+    text-align: left;
+}
